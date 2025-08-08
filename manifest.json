@@ -1,0 +1,57 @@
+{
+  "name": "WRS Web Rádio scub",
+  "short_name": "WRS Web Rádio scub",
+  "description": "Música sem Gospel sem parar!",
+  "icons": [
+    {
+      "src": "scub_cover.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/scub_cover.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./?mode=pwa",
+  "theme_color": "#FFF",
+  "background_color": "#FFF", 
+  "orientation": "any", 
+  "display": "standalone", 
+  "display_override": [
+    "standalone"
+  ],
+  "lang": "pt-BR", 
+  "dir": "ltr",
+  "categories": [
+    "music"
+  ],
+  "screenshots": [
+    {
+      "src": "assets/scub_cover.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/scub_cover.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/scub.png",
+      "type": "image/png",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://www.scub.com.br/",
+      "id": "com.jbcast.jwradio"
+    }
+  ]
+}
